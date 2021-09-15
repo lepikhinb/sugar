@@ -1,0 +1,49 @@
+{
+    "name": "based/sugar",
+    "description": "Minimal Laravel authentication scaffolding with Vue, Vite, Typescript and Tailwind.",
+    "keywords": [
+        "laravel",
+        "auth",
+        "breeze",
+        "typescript",
+        "tailwind",
+        "vite"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/lepikhinb/sugar/issues",
+        "source": "https://github.com/lepikhinb/sugar"
+    },
+    "authors": [
+        {
+            "name": "Boris Lepikhin",
+            "email": "boris@lepikhin.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/filesystem": "^8.42",
+        "illuminate/support": "^8.42",
+        "illuminate/validation": "^8.42"
+    },
+    "autoload": {
+        "psr-4": {
+            "Based\\Sugar\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Based\\Sugar\\SugarServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
