@@ -72,6 +72,7 @@ class InstallCommand extends Command
                 '@inertiajs/inertia-vue3' => '^0.5.1',
                 '@inertiajs/progress' => '^0.2.6',
                 '@tailwindcss/forms' => '^0.2.1',
+                '@types/ziggy-js' => '^1.3.0',
                 '@vitejs/plugin-vue' => '^1.6.0',
                 '@vue/compiler-sfc' => '^3.0.5',
                 'autoprefixer' => '^10.2.4',

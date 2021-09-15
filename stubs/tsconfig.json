@@ -11,7 +11,7 @@
         "noImplicitAny": false,
         "skipLibCheck": false,
         "lib": ["esnext", "dom"],
-        "types": ["vite/client"],
+        "types": ["vite/client", "ziggy-js"],
         "baseUrl": ".",
         "paths": {
             "@/*": ["resources/js/*"]
