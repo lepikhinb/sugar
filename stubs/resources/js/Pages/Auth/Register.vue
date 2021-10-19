@@ -21,9 +21,8 @@ const submit = () => {
 }
 </script>
 
-
 <template>
-    <Head title="Register" />
+    <Head><title>Register</title></Head>
 
     <Layout>
         <ValidationErrors class="mb-4" />

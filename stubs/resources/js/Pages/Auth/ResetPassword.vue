@@ -26,7 +26,7 @@ const submit = () => {
 </script>
 
 <template>
-    <Head title="Reset Password" />
+    <Head><title>Reset Password</title></Head>
 
     <Layout>
         <ValidationErrors class="mb-4" />

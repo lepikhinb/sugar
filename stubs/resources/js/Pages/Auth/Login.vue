@@ -24,7 +24,7 @@ const submit = () => {
 </script>
 
 <template>
-    <Head title="Log in" />
+    <Head><title>Log in</title></Head>
 
     <Layout>
         <ValidationErrors class="mb-4" />
